@@ -1,0 +1,48 @@
+
+test-export.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brick-wall
+  rotate: false
+  xy: 1, 13
+  size: 124, 141
+  orig: 124, 141
+  offset: 0, 0
+  index: -1
+music
+  rotate: false
+  xy: 303, 381
+  size: 90, 75
+  orig: 90, 75
+  offset: 0, 0
+  index: -1
+progress-bar-knob
+  rotate: false
+  xy: 1, 1
+  size: 35, 10
+  orig: 35, 10
+  offset: 0, 0
+  index: -1
+sand-tile
+  rotate: false
+  xy: 1, 156
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+scroll-knob
+  rotate: false
+  xy: 303, 341
+  size: 13, 38
+  orig: 13, 38
+  offset: 0, 0
+  index: -1
+progress-bar-bg
+  rotate: false
+  xy: 127, 144
+  size: 35, 10
+  orig: 35, 10
+  offset: 0, 0
+  index: -1

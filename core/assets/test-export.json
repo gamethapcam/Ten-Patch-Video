@@ -1,0 +1,120 @@
+{
+com.badlogic.gdx.graphics.Color: {
+	button: {
+		r: 0.42666668
+		g: 0.42666668
+		b: 0.42666668
+		a: 1
+	}
+	red: {
+		r: 1
+		g: 0
+		b: 0
+		a: 1
+	}
+}
+com.ray3k.tenpatch.TenPatchDrawable: {
+	brick-wall-ten: {
+		region: brick-wall
+		horizontalStretchAreas: [ 28, 95 ]
+		verticalStretchAreas: [ 28, 112 ]
+		tiling: true
+		minWidth: 124
+		minHeight: 141
+		rightWidth: 28
+		leftWidth: 28
+		bottomHeight: 28
+		topHeight: 28
+	}
+	button-up: {
+		region: music
+		horizontalStretchAreas: [ 6, 35, 54, 83 ]
+		verticalStretchAreas: [ 6, 13, 61, 68 ]
+		tiling: false
+		minWidth: 90
+		minHeight: 75
+		rightWidth: 8
+		leftWidth: 8
+		bottomHeight: 8
+		topHeight: 8
+	}
+	button-down: {
+		region: music
+		color: button
+		horizontalStretchAreas: [ 6, 83 ]
+		verticalStretchAreas: [ 6, 68 ]
+		tiling: false
+		minWidth: 90
+		minHeight: 75
+		rightWidth: 8
+		leftWidth: 8
+		bottomHeight: 8
+		topHeight: 8
+	}
+	progress-bar-knob-ten: {
+		region: progress-bar-knob
+		horizontalStretchAreas: [ 4, 30 ]
+		verticalStretchAreas: [ 0, 9 ]
+		tiling: true
+		minWidth: 0
+		minHeight: 10
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+	}
+	progress-bar-bg-ten: {
+		region: progress-bar-bg
+		horizontalStretchAreas: [ 6, 28 ]
+		verticalStretchAreas: []
+		tiling: false
+		minWidth: 35
+		minHeight: 10
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+	}
+	sand-tile-ten: {
+		region: sand-tile
+		horizontalStretchAreas: [ 60, 239 ]
+		verticalStretchAreas: [ 60, 240 ]
+		tiling: true
+		minWidth: 300
+		minHeight: 300
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+	}
+	scroll-knob-ten: {
+		region: scroll-knob
+		horizontalStretchAreas: [ 0, 12 ]
+		verticalStretchAreas: [ 8, 14, 23, 29 ]
+		tiling: false
+		minWidth: 13
+		minHeight: 0
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button-up
+		down: button-down
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progress-bar-bg-ten
+		knobBefore: progress-bar-knob-ten
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		vScrollKnob: scroll-knob-ten
+	}
+}
+}
